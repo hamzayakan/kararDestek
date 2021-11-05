@@ -64,4 +64,4 @@ verilerini örnek olarak kullanacağız.
 ## 7. Adım
 ![resim](https://github.com/hamzayakan/kararDestek/blob/main/resim/7_adim.PNG)<br/>
 
-### Bütün adımların programımızda görebilirsiniz. 
+### Bütün adımların programımızda görebilirsiniz.  
