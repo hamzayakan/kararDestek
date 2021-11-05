@@ -1,8 +1,19 @@
 # Anasayfa
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/Anasayfa.PNG)
 ## İlaç Seçimi ve Risk Tablosu
-Burada hangi ilaçları kullanabileceğini seçiyoruz
+Burada hangi ilaçları kullanabileceğini seçiyoruz <br/>
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/RiskDeger.PNG)
+## Kritik Ağırlık Belirleme
+Hastanın Durumuna göre ilaçların ağırlıklarını belirliyoruz. <br/>
+![](https://github.com/hamzayakan/kararDestek/blob/main/resim/Kritik%20A%C4%9F%C4%B1rl%C4%B1k%20Belirleme.PNG)
+## TOPSİS Sonuç Tablosu
+Seçilen ilaçlar ve girilen ağırlıklara göre ilaçların hangi sırayla kullanılması gerektiği sonucu verilmiştir.
+![](https://github.com/hamzayakan/kararDestek/blob/main/resim/TopsisSonucTablosu.PNG)
+
+## Not: Programımızın önemli olan kısımları yukarıdaki resimlerle beraber verilmiştir. Diğer resimlere https://github.com/hamzayakan/kararDestek/tree/main/resim adresinden ulaşabilirsiniz. <br/>
+
+## Alttaki kısımlarda da Klinik Karar Destek Sistemiyle alakalı bilgi verdik ve TOPSİS algoritmasının nasıl çalıştığını projemize uygun bir örnek eşliğinde açıkladık.
+
 # Klinik Karar Destek Sistemi
 Bazı araştırmacılar Klinik Karar Destek Sisteminin (KKDS) olumlu potansiyelini 
 düşünmüş olsa da aktif tedavi stratejilerine veya HbA1c hedeflerine götüren hastaların 
@@ -52,3 +63,5 @@ verilerini örnek olarak kullanacağız.
 ![resim](https://github.com/hamzayakan/kararDestek/blob/main/resim/6_adim.PNG)<br/>
 ## 7. Adım
 ![resim](https://github.com/hamzayakan/kararDestek/blob/main/resim/7_adim.PNG)<br/>
+
+### Bütün adımların programımızda görebilirsiniz. 
