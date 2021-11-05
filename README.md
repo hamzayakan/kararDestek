@@ -16,6 +16,8 @@ Seçilen ilaçlar ve girilen ağırlıklara göre ilaçların hangi sırayla kul
 antidiyabetik ilaçların öneri önceliği MET>DPP-4>İnsülin>SU <br/><br/>
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/TopsisSonucTablosu.PNG)
 
+
+# TEORİK KISIM
 ## -Klinik Karar Destek Sistemiyle alakalı bilgi ve TOPSİS algoritmasının nasıl çalıştığını projemize uygun bir örnek eşliğinde açıkladık.
 
 # Klinik Karar Destek Sistemi
