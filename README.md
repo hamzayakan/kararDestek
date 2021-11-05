@@ -1,18 +1,22 @@
+Microsoft Visual Studio kurulu bir bilgisayarda [Solution Dosyası](https://github.com/hamzayakan/kararDestek/blob/main/kararDestek.sln) ile programımızı başlatabilirsiniz. Kodlama C# ile yapılmıştır.<br/>
+
+[Hasta ekle](https://github.com/hamzayakan/kararDestek/blob/main/resim/HastaKayit.PNG), [hasta listesi](https://github.com/hamzayakan/kararDestek/blob/main/resim/HastaListesi.PNG) ve diğer tüm resimleri  [burdan](https://github.com/hamzayakan/kararDestek/tree/main/resim)  görebilirsiniz. Önemli olan TOPSİS algoritmasını kullandığımız kısımları anlattık.<br/>
+
 # Anasayfa
+
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/Anasayfa.PNG)
 ## İlaç Seçimi ve Risk Tablosu
-Burada hangi ilaçları kullanabileceğini seçiyoruz <br/>
+Doktor hastayı analiz ettikten sonra listemizde bulanan 7 tane antidiyabetik ilaçtan hangilerini kullanabileceğini seçiyor. <br/><br/>
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/RiskDeger.PNG)
 ## Kritik Ağırlık Belirleme
-Hastanın Durumuna göre ilaçların ağırlıklarını belirliyoruz. <br/>
+Antidiyabetik ilaçların 8 tane özelliği var. Bu özellikler doktor tarafından ağırlıklandırılması istenmiştir. Örnek hastamızda Ödem var CHF'yi 2'ye ayarlıyoruz. (Başlangıç değerleri "1" dir.)  <br/><br/>
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/Kritik%20A%C4%9F%C4%B1rl%C4%B1k%20Belirleme.PNG)
 ## TOPSİS Sonuç Tablosu
-Seçilen ilaçlar ve girilen ağırlıklara göre ilaçların hangi sırayla kullanılması gerektiği sonucu verilmiştir.
+Seçilen ilaçlar ve girilen ağırlıklara göre ilaçların hangi sırayla kullanılması gerektiği sonucu verilmiştir. Sonuçlar MET'in ideal çözümü C1*'in 0.775 olduğunu, DPP-4'ün ideal çözümü C2*'nin 0.540 olduğunu, SU'nun ideal çözümünün C3*'ün 0.270 olduğunu ve İnsülinin ideal çözümünün C4* olduğunu göstermektedir. 0.384. C1*> C2*> C4*> C3* olduğundan 
+antidiyabetik ilaçların öneri önceliği MET>DPP-4>İnsülin>SU <br/><br/>
 ![](https://github.com/hamzayakan/kararDestek/blob/main/resim/TopsisSonucTablosu.PNG)
 
-## Not: Programımızın önemli olan kısımları yukarıdaki resimlerle beraber verilmiştir. Diğer resimlere https://github.com/hamzayakan/kararDestek/tree/main/resim adresinden ulaşabilirsiniz. <br/>
-
-## Alttaki kısımlarda da Klinik Karar Destek Sistemiyle alakalı bilgi verdik ve TOPSİS algoritmasının nasıl çalıştığını projemize uygun bir örnek eşliğinde açıkladık.
+## -Klinik Karar Destek Sistemiyle alakalı bilgi ve TOPSİS algoritmasının nasıl çalıştığını projemize uygun bir örnek eşliğinde açıkladık.
 
 # Klinik Karar Destek Sistemi
 Bazı araştırmacılar Klinik Karar Destek Sisteminin (KKDS) olumlu potansiyelini 
