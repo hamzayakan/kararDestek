@@ -43,13 +43,13 @@ namespace kararDestek
             this.comboBoxIlaclar = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridViewImport = new System.Windows.Forms.DataGridView();
-            this.buttonKararMatExelAktar = new System.Windows.Forms.Button();
             this.buttonNormalizeMat = new System.Windows.Forms.Button();
             this.tabPageNormalizeMat = new System.Windows.Forms.TabPage();
             this.buttonKriterAgirlikHesapla = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewNormalize = new System.Windows.Forms.DataGridView();
             this.tabPageAgirlikBelirleme = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
             this.buttonKriterAgirlikKaydet = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridViewKriterAgirlik = new System.Windows.Forms.DataGridView();
@@ -68,10 +68,9 @@ namespace kararDestek
             this.dataGridViewNegatifIdealUzaklık = new System.Windows.Forms.DataGridView();
             this.dataGridViewIdealUzaklik = new System.Windows.Forms.DataGridView();
             this.tabPageTopsisSonuc = new System.Windows.Forms.TabPage();
-            this.dataGridViewTopsisSonuc = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dataGridViewTopsisSonuc = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPageKararMatrisi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKullan)).BeginInit();
@@ -118,7 +117,6 @@ namespace kararDestek
             this.tabPageKararMatrisi.Controls.Add(this.comboBoxIlaclar);
             this.tabPageKararMatrisi.Controls.Add(this.label3);
             this.tabPageKararMatrisi.Controls.Add(this.dataGridViewImport);
-            this.tabPageKararMatrisi.Controls.Add(this.buttonKararMatExelAktar);
             this.tabPageKararMatrisi.Controls.Add(this.buttonNormalizeMat);
             this.tabPageKararMatrisi.Location = new System.Drawing.Point(4, 24);
             this.tabPageKararMatrisi.Name = "tabPageKararMatrisi";
@@ -232,16 +230,6 @@ namespace kararDestek
             this.dataGridViewImport.TabIndex = 4;
             this.dataGridViewImport.Visible = false;
             // 
-            // buttonKararMatExelAktar
-            // 
-            this.buttonKararMatExelAktar.BackColor = System.Drawing.Color.SeaGreen;
-            this.buttonKararMatExelAktar.Location = new System.Drawing.Point(37, 572);
-            this.buttonKararMatExelAktar.Name = "buttonKararMatExelAktar";
-            this.buttonKararMatExelAktar.Size = new System.Drawing.Size(164, 42);
-            this.buttonKararMatExelAktar.TabIndex = 3;
-            this.buttonKararMatExelAktar.Text = "Exel Aktar";
-            this.buttonKararMatExelAktar.UseVisualStyleBackColor = false;
-            // 
             // buttonNormalizeMat
             // 
             this.buttonNormalizeMat.Location = new System.Drawing.Point(554, 568);
@@ -328,6 +316,18 @@ namespace kararDestek
             this.tabPageAgirlikBelirleme.TabIndex = 4;
             this.tabPageAgirlikBelirleme.Text = "Kriter Ağırlık Belirleme";
             this.tabPageAgirlikBelirleme.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(28, 385);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(489, 84);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Antidiyabetik ilacın risk özellikleri için ağırlığı belirleyin.\r\nBaşlangıç ağırlı" +
+    "kları 1\'dir.\r\n(Örnek olarak hastamızda \"ÖDEM\" vardır.\r\nBu durumda \"ÖDEM\" CHF\'ye " +
+    "göre olduğundan 2\'ye ayarlayabiliriz)";
             // 
             // buttonKriterAgirlikKaydet
             // 
@@ -528,27 +528,6 @@ namespace kararDestek
             this.tabPageTopsisSonuc.Text = "Topsis Sonuç Tablosu";
             this.tabPageTopsisSonuc.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewTopsisSonuc
-            // 
-            this.dataGridViewTopsisSonuc.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridViewTopsisSonuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewTopsisSonuc.Location = new System.Drawing.Point(53, 137);
-            this.dataGridViewTopsisSonuc.Name = "dataGridViewTopsisSonuc";
-            this.dataGridViewTopsisSonuc.RowTemplate.Height = 25;
-            this.dataGridViewTopsisSonuc.Size = new System.Drawing.Size(780, 289);
-            this.dataGridViewTopsisSonuc.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.GreenYellow;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(53, 66);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(511, 25);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Tavsiye Edilen İlaç Sıralaması Aşağıdaki Grafikte Verilmiştir";
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
@@ -561,23 +540,32 @@ namespace kararDestek
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label7
+            // label6
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(28, 385);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(489, 84);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Antidiyabetik ilacın risk özellikleri için ağırlığı belirleyin.\r\nBaşlangıç ağırlı" +
-    "kları 1\'dir.\r\n(Örnek olarak hastamızda \"ÖDEM\" vardır.\r\nBu durumda \"ÖDEM\" CHF\'ye " +
-    "göre olduğundan 2\'ye ayarlayabiliriz)";
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.GreenYellow;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(53, 66);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(511, 25);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Tavsiye Edilen İlaç Sıralaması Aşağıdaki Grafikte Verilmiştir";
+            // 
+            // dataGridViewTopsisSonuc
+            // 
+            this.dataGridViewTopsisSonuc.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridViewTopsisSonuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewTopsisSonuc.Location = new System.Drawing.Point(53, 137);
+            this.dataGridViewTopsisSonuc.Name = "dataGridViewTopsisSonuc";
+            this.dataGridViewTopsisSonuc.RowTemplate.Height = 25;
+            this.dataGridViewTopsisSonuc.Size = new System.Drawing.Size(780, 289);
+            this.dataGridViewTopsisSonuc.TabIndex = 0;
             // 
             // topsisDiyabet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1138, 765);
+            this.ClientSize = new System.Drawing.Size(1138, 749);
             this.Controls.Add(this.tabControl1);
             this.Name = "topsisDiyabet";
             this.Text = "topsisDiyabet";
@@ -616,7 +604,6 @@ namespace kararDestek
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPageKararMatrisi;
         private System.Windows.Forms.DataGridView dataGridViewImport;
-        private System.Windows.Forms.Button buttonKararMatExelAktar;
         private System.Windows.Forms.Button buttonNormalizeMat;
         private System.Windows.Forms.TabPage tabPageNormalizeMat;
         private System.Windows.Forms.Button buttonKriterAgirlikHesapla;

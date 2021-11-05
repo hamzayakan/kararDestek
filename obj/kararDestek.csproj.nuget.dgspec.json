@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asd\\Desktop\\kararDestek\\kararDestek.csproj": {}
+    "C:\\Users\\asd\\GitHub\\kararDestek\\kararDestek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asd\\Desktop\\kararDestek\\kararDestek.csproj": {
+    "C:\\Users\\asd\\GitHub\\kararDestek\\kararDestek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asd\\Desktop\\kararDestek\\kararDestek.csproj",
+        "projectUniqueName": "C:\\Users\\asd\\GitHub\\kararDestek\\kararDestek.csproj",
         "projectName": "kararDestek",
-        "projectPath": "C:\\Users\\asd\\Desktop\\kararDestek\\kararDestek.csproj",
+        "projectPath": "C:\\Users\\asd\\GitHub\\kararDestek\\kararDestek.csproj",
         "packagesPath": "C:\\Users\\asd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asd\\Desktop\\kararDestek\\obj\\",
+        "outputPath": "C:\\Users\\asd\\GitHub\\kararDestek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asd\\AppData\\Roaming\\NuGet\\NuGet.Config",

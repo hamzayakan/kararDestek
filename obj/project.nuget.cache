@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cPyGk3aD6XML8VMt5gjTc3es1VyCZLVwKcbcvwofdeEy6AGSfy2ZC1UR96AxDghjAKPZJWOSjWq9ZH/g1wiJrw==",
+  "dgSpecHash": "ZRs/YgskZ3d+TjnWc/P0Oxt3QuJxUhkOd+7Nl+DoNLsaETYaGpwMtBkkNA1cfhmRyr0MTGpD0BbTdjBbtcjxoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asd\\Desktop\\kararDestek\\kararDestek.csproj",
+  "projectFilePath": "C:\\Users\\asd\\GitHub\\kararDestek\\kararDestek.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asd\\.nuget\\packages\\firesharp\\1.1.0\\firesharp.1.1.0.nupkg.sha512",
     "C:\\Users\\asd\\.nuget\\packages\\firesharp.serialization.jsonnet\\1.1.0\\firesharp.serialization.jsonnet.1.1.0.nupkg.sha512",
